@@ -1,8 +1,8 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import { ChakraProvider } from "@chakra-ui/react";
 import { Inter } from "next/font/google";
 
-import { ChakraProvider } from "@chakra-ui/react";
+import type { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
