@@ -25,6 +25,7 @@
     "typescript": "5.5.4"
   },
   "devDependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@vitejs/plugin-react": "^4.3.1",
@@ -32,9 +33,15 @@
     "jsdom": "^25.0.0",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
+    "secretlint": "^8.2.4",
     "vitest": "^2.0.5"
   },
   "volta": {
     "node": "20.10.0"
+  },
+  "lint-staged": {
+    "*": [
+      "secretlint"
+    ]
   }
 }
