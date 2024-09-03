@@ -1,9 +1,9 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 type SampleProps = {
-  title: string;
-};
+  title: string
+}
 
 export const Sample: FC<SampleProps> = ({ title }) => {
-  return <>{title}</>;
-};
+  return <>{title}</>
+}
